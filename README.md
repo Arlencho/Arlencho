@@ -56,7 +56,7 @@ Small, provider-agnostic Go client: Anthropic Claude + any OpenAI-compatible end
 **Backend:** Go · .NET · PostgreSQL · PostGIS · Redis · pgx  
 **Frontend:** Next.js · React · TypeScript · MapLibre · Chart.js  
 **Infra:** Cloud Run · Docker · GitHub Actions · Cloud SQL · GCP · AWS  
-**AI:** Claude · OpenAI · provider-agnostic interfaces · agentic orchestration  
+**AI:** Claude · OpenAI · Azure OpenAI · Groq · Together · OpenRouter · Qwen · provider-agnostic interfaces · agentic orchestration  
 **Data:** Bronze/Silver/Gold medallion architecture · immutable raw layers · spatial queries
 
 ## What I care about

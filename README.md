@@ -35,7 +35,7 @@ In parallel: my own commercial platform (SafePlace), two public open-source proj
 A real-time safety intelligence platform for Sweden.
 
 - Ingests data from 6+ Swedish government APIs (Polisen, SMHI, Trafikverket, Krisinformation, Kolada/BRÅ, SCB) plus 25 news RSS feeds.
-- Enriches events with AI-extracted precise locations (Claude Haiku / Qwen) and matches them to news coverage across 21 regional feeds.
+- Enriches events with AI-extracted precise locations (Claude Haiku) and matches them to news coverage across 21 regional feeds.
 - Produces per-address safety scores with confidence, explainability, and trend data — aggregated across 290 Swedish municipalities.
 - Medallion architecture (Bronze → Silver → Gold), immutable raw layers, PostGIS spatial queries, Cloud Run in `europe-north1`.
 
@@ -56,7 +56,7 @@ Small, provider-agnostic Go client: Anthropic Claude + any OpenAI-compatible end
 **Backend:** Go · .NET · PostgreSQL · PostGIS · Redis · pgx  
 **Frontend:** Next.js · React · TypeScript · MapLibre · Chart.js  
 **Infra:** Cloud Run · Docker · GitHub Actions · Cloud SQL · GCP · AWS  
-**AI:** Claude · Qwen · OpenAI (via unified provider interface) · agentic orchestration  
+**AI:** Claude · OpenAI · provider-agnostic interfaces · agentic orchestration  
 **Data:** Bronze/Silver/Gold medallion architecture · immutable raw layers · spatial queries
 
 ## What I care about

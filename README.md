@@ -28,26 +28,11 @@ I've been a **CTO and entrepreneur for 8+ years**, mostly in FinTech and heavily
 
 ## Currently building
 
-In parallel: my own commercial platform (SafePlace), two public open-source projects, and **consulting engagements where I lead AI orchestration and engineering teams**, typically stepping in as fractional CTO / technical lead to set architecture, build the team's AI workflows, and stay hands-on enough to unblock anyone on any layer of the stack.
-
-### 🛡️ SafePlace (private, commercial)
-
-A real-time safety intelligence platform for Sweden.
-
-- Ingests data from 6+ Swedish government APIs (Polisen, SMHI, Trafikverket, Krisinformation, Kolada/BRÅ, SCB) plus 25 news RSS feeds.
-- Enriches events with AI-extracted precise locations (Claude Haiku) and matches them to news coverage across 21 regional feeds.
-- Produces per-address safety scores with confidence, explainability, and trend data, aggregated across 290 Swedish municipalities.
-- Medallion architecture (Bronze → Silver → Gold), immutable raw layers, PostGIS spatial queries, Cloud Run in `europe-north1`.
-
-### 🤖 [dev-agents](https://github.com/Arlencho/dev-agents) (public)
-
-Multi-agent AI orchestration framework. 12 specialist role definitions (backend, frontend, DB, devops, security-reviewer, etc.), wave-based parallel execution, provider-agnostic design. Claude Code today; OpenAI / Cursor / Grok on the roadmap.
-
-**Real use:** I used a custom analytics agent built on this framework to audit a production data platform. First pass scored it **34/100** and identified 10 specific gaps. After three waves of parallel agent work, the re-score was **83.5/100**, catching problems a human review would have missed.
+In parallel I take on **consulting engagements where I lead AI orchestration and engineering teams**, typically stepping in as fractional CTO / technical lead to set architecture, build the team's AI workflows, and stay hands-on enough to unblock anyone on any layer of the stack.
 
 ### 📦 [llm-providers](https://github.com/Arlencho/llm-providers) (public)
 
-Small, provider-agnostic Go client: Anthropic Claude + any OpenAI-compatible endpoint (Qwen/DashScope, Azure, Groq, Together, OpenRouter) behind one interface. No SDK bloat, no lock-in, swap providers with one env var. Extracted from SafePlace's ingestion pipeline.
+Small, provider-agnostic Go client: Anthropic Claude + any OpenAI-compatible endpoint (Qwen/DashScope, Azure, Groq, Together, OpenRouter) behind one interface. No SDK bloat, no lock-in, swap providers with one env var.
 
 ---
 

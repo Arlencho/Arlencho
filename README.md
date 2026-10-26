@@ -8,7 +8,7 @@ Based in Stockholm. Leader *and* IC. I architect, I review, I ship code.
 
 ## A note on this profile
 
-I've been a **CTO and entrepreneur for 8+ years**, mostly in FinTech and heavily regulated domains. Most of my commits from 2014 to 2024 live on company GitHub accounts at **Kreditz**, **Fakturabörsen**, and other orgs where I led engineering or was principal engineer. The contribution graph here is the public-facing slice of a much longer track record. If you're here to evaluate how I work, the public repos below and the career notes are the better signal, and I'm happy to walk through private work under NDA.
+I've been a **CTO and entrepreneur for 8+ years**, mostly in FinTech and heavily regulated domains. Most of my commits from 2014 to 2024 live on company GitHub accounts at **Kreditz**, **Fakturabörsen**, and other orgs, first as principal engineer and later as CTO. The contribution graph here is the public-facing slice of a much longer track record. If you're here to evaluate how I work, the public repos below and the career notes are the better signal, and I'm happy to walk through private work under NDA.
 
 ---
 
